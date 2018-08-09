@@ -1,0 +1,12 @@
+.background {
+    background-color: skyblue;
+    z-index: -20;
+
+    &__sun {
+        background-color: rgb(255, 236, 153);
+        border-radius: 50%;
+        z-index: -10;
+        grid-row: 2/3;
+        grid-column: 13/14;
+    }
+}

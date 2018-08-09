@@ -1,0 +1,17 @@
+$color-blue-light: #5496e6;
+$color-blue-dark: #518bde;
+
+$color-gray-one: #444;
+
+$color_yellow_one: #f7d754;
+
+
+
+.grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(20, minmax(20px, 1fr));
+    grid-template-columns: repeat(20, minmax(15px, 1fr));
+    
+}
